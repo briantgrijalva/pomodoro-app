@@ -8,7 +8,7 @@ function App() {
     <>
       <nav className="navbar navbar-light bg-light">
         <div className="container-fluid">
-          <div className="navbar-brand" href="/">
+          <div className="navbar-brand">
             <img src={require("./time.png")} alt="" width="30" height="30" className="d-inline-block align-text-top" />
             &nbsp; Pomodoro App
           </div>
