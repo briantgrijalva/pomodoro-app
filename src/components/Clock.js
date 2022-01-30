@@ -5,10 +5,7 @@ import { ModalContext } from './SettingsModal';
 
 const Clock = () => {
 
-
     const {handleShow, worktime, relaxtime} = useContext(ModalContext);
-
-    // Timer work
 
     {
         const time = new Date();
@@ -41,8 +38,7 @@ const Clock = () => {
             } else if (timerWorkBolEnd === false) {
                 setTimerWorkBolEnd(true);
                 // console.log(timerWorkBolEnd);
-            };
-           
+            };   
         }
     }
     );

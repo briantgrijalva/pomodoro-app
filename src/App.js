@@ -6,7 +6,7 @@ import img from './time.png';
 
 
 function App() {
-  console.log(img);
+  
   return (
     <>
       <nav className="navbar navbar-light bg-light">
